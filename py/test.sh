@@ -8,8 +8,6 @@ then
 	echo echo $p_pid | wc -l
 fi
 
-
-
 if [ $1 = "start" ]
 then
 	if [ ! -z "$p_pid" ]
